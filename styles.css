@@ -304,6 +304,10 @@ tr:nth-child(odd) {
         text-align: center;
         gap: 20px;
     }
+
+    table {
+        width: 100%;
+    }
 }
 
 @media (max-width: 480px) {
