@@ -220,6 +220,31 @@ footer {
     color: #666666;
 }
 
+table {
+    width: 75%;
+    text-align: left;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+tr {
+    padding: 0;
+    gap: 0;
+    margin: 0;
+}
+
+tr:nth-child(even) {
+  background-color: #C3CEBC;
+}
+
+tr:nth-child(odd) {
+  background-color: #E1D8B9;
+}
+
 @media (max-width: 1200px) {
     .real-body {
         margin: 0 50px;
