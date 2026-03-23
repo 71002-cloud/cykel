@@ -4,6 +4,10 @@ body {
     background-color: #DDDDDD;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .real-body {
     max-width: 1200px;
     margin: 0 auto;
